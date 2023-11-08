@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:rgba(0,0,0,0.7) url('bg1.jpg') center center fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.container h1{
+    color:deeppink;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navbar ul li{
+    display: inline-block;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: beige;
+    padding: 5px;
+    transition: 0.2s;
+}
+.navbar ul li a:hover{
+   box-shadow: 0 3px 50px olivedrab inset; 0 3px 50px olivedrab inset;
+}
+.content{
+    position: absolute;
+    color: whitesmoke;
+    top:50%;
+    left:50%;
+}
+.content h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.content h1{
+   margin-top: 30px;
+}
+.content p{
+    text-align: center;
+    margin-top: 10px;
+}
+.search{
+    position: absolute;
+    margin-top: 30%;
+    margin-left: 50%;
+}
+.search input{
+    outline: none;
+    border: none;
+    padding: 15px 40px;
+    size: 1em;
+    width: 100%;
+}
+.submit{
+    position: absolute;
+    margin-top: 38%;
+    margin-left: 55%;
+}
+.submit a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 15px 20px;
+    background-color: olivedrab;
+}
